@@ -8,7 +8,7 @@ def get_numbers_ticket(min, max, quantity):
             
       random_num = random.sample(range(min, max + 1), quantity)
       random_num.sort()
-    #   unique_numbers = set(random_num)
+    #   unique_numbers = set(random_num)  #***Чи потрібна перевірка на унікальність чисел в списку за допомогою множин?***
     #   res = sorted(unique_numbers)    
       
       print("Рандомні числа згенеровані!)")
@@ -19,6 +19,6 @@ def get_numbers_ticket(min, max, quantity):
   
   
             
-lottery_numbers = get_numbers_ticket(5, 49, 6)
+lottery_numbers = get_numbers_ticket(1, 5, 3)
 print("Ваші лотерейні числа:", lottery_numbers)
 
