@@ -1,5 +1,4 @@
-
-#*************Task quantiy*****************
+# *************Task quantiy*****************
 
 # import datetime
 
@@ -18,7 +17,6 @@
 # print(delta)
 
 
-
 # def get_days_from_today(date):
 #     pass
 
@@ -31,7 +29,7 @@
 # myDay = datetime(1987, 3, 28).toordinal()
 # print(f"Мені {myDay} днів від Різдва Христового!!!")
 # how_much = now - myDay
-# print(how_much) 
+# print(how_much)
 
 # now = datetime.now()
 
@@ -80,7 +78,7 @@
 # # Створення часової зони для Східного часового поясу (UTC-5)
 # eastern_time = utc_time.astimezone(timezone(timedelta(hours=-5)))
 # # Перетворює час UTC в час Східного часового поясу
-# print(eastern_time)  
+# print(eastern_time)
 
 
 # import time
@@ -105,7 +103,6 @@
 # print(f"Читабельний час: {readable_time}")
 
 
-
 # import random
 
 # dice_roll = random.randint(1, 6)
@@ -115,7 +112,6 @@
 
 # num = random.random()
 # print(num)
-
 
 
 #!!!!!!==========Task random Number============================
@@ -129,8 +125,8 @@
 
 # if match:
 #     print("Електронна адреса:", match.group())
-    
-    #!!!!!!=========Regular============================
+
+#!!!!!!=========Regular============================
 
 # import re
 
@@ -199,7 +195,7 @@
 # replacement = "_"
 # formatted_name = re.sub(pattern, replacement, file_name)
 
-# print(formatted_name)  
+# print(formatted_name)
 
 
 # import re
@@ -209,7 +205,7 @@
 # replacement = ""
 # modified_text = re.sub(pattern, replacement, text)
 
-# print(modified_text)  
+# print(modified_text)
 
 # import re
 
@@ -232,10 +228,20 @@
 
 # print(words)  # Виведе список слів у рядку
 
-import re
+# import re
 
-text = "Python - потужна; проста, універсальна: мова!"
-pattern = r"[;,\-:!\s]+"
-elements = re.split(pattern, text)
+# text = "Python - потужна; проста, універсальна: мова!"
+# pattern = r"[;,\-:!\s]+"
+# elements = re.split(pattern, text)
 
-print(elements)  # Виведе список частин, розділених пунктуацією
+# print(elements)  # Виведе список частин, розділених пунктуацією
+
+
+# from datetime import datetime, timedelta
+
+
+# today = datetime.today().date()
+# end_date = today + timedelta(days=7)
+
+# print(end_date)
+
